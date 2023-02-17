@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.fc {
+    background-color: rgb(241, 81, 81);
+    height: 90px;
+}
+body {
+  background-image: url(/dsbongda/background-do-dep-nhat.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+img {
+    width: 150px;
+    height: 170px;
+}
+.column {
+    float: left;
+    width: 10%;
+    padding: 20px;
+    
+}
+.row {
+    content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+.row {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+p {
+  background-color: rgb(241, 81, 81)
+}
+.column p {
+  text-align: center;
+}
+  
