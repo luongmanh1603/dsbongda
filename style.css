@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    margin-top:50px ;
 }
 h2 {
   text-align: center;
@@ -35,13 +36,39 @@ img {
     }
   }
 .row {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 100px;
 }
 p {
   background-color: rgb(241, 81, 81)
 }
-.column p {
+.column1 p {
   text-align: center;
+}
+.column1 {
+  float: left;
+  width: 8%;
+  padding: 20px;
+  
+}
+.row1 {
+  content: "";
+display: table;
+clear: both;
+}
+@media screen and (max-width:600px) {
+  .column1 {
+    width: 100%;
+  }
+}
+.row1 {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+p {
+background-color: rgb(241, 81, 81)
+}
+.column1 p {
+text-align: center;
 }
   
